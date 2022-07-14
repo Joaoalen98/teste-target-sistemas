@@ -1,0 +1,19 @@
+{
+  "name": "rep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "node-fetch": "^3.2.8",
+    "prompt-sync": "^4.2.0"
+  },
+  "scripts": {
+    "fibonacci": "node ./2-fibonacci",
+    "db": "npx json-server ./3-vetor/api/dados.json",
+    "vetor": "node ./3-vetor",
+    "faturamentos": "node ./4-percentualFaturamento",
+    "inverter": "node ./5-inverterString"
+  },
+  "type": "module"
+}
